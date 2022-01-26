@@ -1,0 +1,449 @@
+/*************************************Normal*************************************/
+	#services
+	{
+	height: 100vh;
+	/*border: solid black 2px;*/
+	margin: 0 0 0 0;
+	padding: 10vh 0 0 0;
+	}
+		#services h1
+		{
+		width: 50%;
+		display: block;
+		text-align: center;
+		font-size: 3.8vw;
+		margin: 0 auto 0 auto;
+		border-bottom: solid #FF2356 5px;
+		/*border: solid black 2px;*/
+		}
+		#divser1
+		{
+		position: absolute;
+		margin: 15vh 0 0 0;
+		height: 60vh;
+		width: 25%;
+		/*border: solid black 2px;*/
+		overflow: hidden;
+		}
+		#divser2
+		{
+		position: absolute;
+		margin: 15vh 0 0 25%;
+		height: 60vh;
+		width: 25%;
+		/*border: solid black 2px;*/
+		overflow: hidden;
+		}
+		#divser3
+		{
+		position: absolute;
+		margin: 15vh 0 0 50%;
+		height: 60vh;
+		width: 25%;
+		/*border: solid black 2px;*/
+		overflow: hidden;
+		}
+		#divser4
+		{
+		position: absolute;
+		margin: 15vh 0 0 75%;
+		height: 60vh;
+		width: 24.7%;
+		/*border: solid black 2px;*/
+		overflow: hidden;
+		}
+		.subdiv
+		{
+		width: 90%;
+		display: block;
+		margin: 0 auto 0 auto;
+		height: 50vh;
+		border: solid black 2px;
+		border-radius: 0 30px 0 30px;
+		overflow: hidden;
+		}
+			.subdiv h2
+			{
+			position: relative;
+			z-index: 2;
+			width: 100%;
+			text-align: center;
+			font-size: 1.7vw;
+			padding: 2.5vh 0 2.5vh 0;
+			/*border: solid black 2px;*/
+			background-color: #FF2356;
+			color: rgb(255, 255, 255);
+			}
+			.subdiv img
+			{
+			position: relative;
+			width: 100%;
+			height: 60%;
+			transition: 0.3s;
+			z-index: 1;
+			}
+				.subdiv img:hover
+				{
+				transform: scale(1.1);
+				}
+		.subdiv2
+		{
+		position: relative;
+		margin: -1vh 0 0 0;
+		height: 100%;
+		width: 100%;
+		/*border: solid black 2px;*/
+		z-index: 2;
+		}
+			.subdiv2 h3
+			{
+			width: 100%;
+			height: 100%;
+			text-align: center;
+			font-size: 1.5vw;
+			padding: 2.5vh 0 2.5vh 0;
+			background-color: rgb(255, 255, 255);
+			transition: 0.3s;
+			}
+				.subdiv2 h3:hover
+				{
+				color: rgb(255, 255, 255);
+				/*font-size: 1.6vw;*/
+				background-color: #004875;
+				}
+			.subdiv2 a
+			{
+			text-decoration: none;
+			color: rgb(0, 0, 0);
+			}
+/***********************************Responsive***********************************/
+@media screen and (max-width: 800px)
+{
+	#services
+	{
+	height: 170vh;
+	}
+		#services h1
+		{
+		width: 55%;
+		font-size: 5vw;
+		}
+	#divser1
+	{
+	margin: 15vh 0 0 0;
+	height: 65vh;
+	width: 50%;
+	/*border: solid black 2px;*/
+	}
+	#divser2
+	{
+	margin: 15vh 0 0 50%;
+	height: 65vh;
+	width: 49.9%;
+	/*border: solid black 2px;*/
+	}
+	#divser3
+	{
+	margin: 80vh 0 0 0;
+	height: 65vh;
+	width: 50%;
+	/*border: solid black 2px;*/
+	}
+	#divser4
+	{
+	margin: 80vh 0 0 50%;
+	height: 65vh;
+	width: 49.9%;
+	/*border: solid black 2px;*/
+	}
+		.subdiv
+		{
+		width: 90%;
+		height: 55vh;
+		}
+			.subdiv h2
+			{
+			font-size: 2.5vw;
+			padding: 2.5vh 0 2.5vh 0;
+			}
+			.subdiv2 h3
+			{
+			font-size: 2.5vw;
+			padding: 5vh 0 0 0;
+			}
+}
+@media screen and (max-width: 700px)
+{
+	#services
+	{
+	height: 170vh;
+	}
+		#services h1
+		{
+		width: 60%;
+		font-size: 5.5vw;
+		}
+	#divser1
+	{
+	margin: 15vh 0 0 0;
+	height: 65vh;
+	width: 50%;
+	/*border: solid black 2px;*/
+	}
+	#divser2
+	{
+	margin: 15vh 0 0 50%;
+	height: 65vh;
+	width: 49.9%;
+	/*border: solid black 2px;*/
+	}
+	#divser3
+	{
+	margin: 80vh 0 0 0;
+	height: 65vh;
+	width: 50%;
+	/*border: solid black 2px;*/
+	}
+	#divser4
+	{
+	margin: 80vh 0 0 50%;
+	height: 65vh;
+	width: 49.9%;
+	/*border: solid black 2px;*/
+	}
+		.subdiv
+		{
+		width: 90%;
+		height: 50vh;
+		}
+			.subdiv h2
+			{
+			font-size: 3vw;
+			padding: 2.5vh 0 2.5vh 0;
+			}
+			.subdiv2 h3
+			{
+			font-size: 3vw;
+			padding: 4vh 0 0 0;
+			}
+}
+@media screen and (max-width: 600px)
+{
+	#services
+	{
+	height: 170vh;
+	}
+		#services h1
+		{
+		width: 60%;
+		font-size: 5.5vw;
+		}
+	#divser1
+	{
+	margin: 15vh 0 0 0;
+	height: 65vh;
+	width: 50%;
+	/*border: solid black 2px;*/
+	}
+	#divser2
+	{
+	margin: 15vh 0 0 50%;
+	height: 65vh;
+	width: 49.9%;
+	/*border: solid black 2px;*/
+	}
+	#divser3
+	{
+	margin: 80vh 0 0 0;
+	height: 65vh;
+	width: 50%;
+	/*border: solid black 2px;*/
+	}
+	#divser4
+	{
+	margin: 80vh 0 0 50%;
+	height: 65vh;
+	width: 49.9%;
+	/*border: solid black 2px;*/
+	}
+		.subdiv
+		{
+		width: 90%;
+		height: 50vh;
+		}
+			.subdiv h2
+			{
+			font-size: 3vw;
+			padding: 2.5vh 0 2.5vh 0;
+			}
+			.subdiv2 h3
+			{
+			font-size: 3vw;
+			padding: 4vh 0 0 0;
+			}
+}
+@media screen and (max-width: 500px)
+{
+	#services
+	{
+	height: 320vh;
+	}
+		#services h1
+		{
+		width: 70%;
+		font-size: 7vw;
+		}
+	#divser1
+	{
+	margin: 10vh 0 0 0;
+	height: 70vh;
+	width: 100%;
+	/*border: solid black 2px;*/
+	}
+	#divser2
+	{
+	margin: 80vh 0 0 0;
+	height: 70vh;
+	width: 100%;
+	/*border: solid black 2px;*/
+	}
+	#divser3
+	{
+	margin: 150vh 0 0 0;
+	height: 70vh;
+	width: 100%;
+	/*border: solid black 2px;*/
+	}
+	#divser4
+	{
+	margin: 220vh 0 0 0;
+	height: 70vh;
+	width: 100%;
+	/*border: solid black 2px;*/
+	}
+		.subdiv
+		{
+		width: 90%;
+		height: 65vh;
+		}
+			.subdiv h2
+			{
+			font-size: 4.5vw;
+			padding: 2.5vh 0 2.5vh 0;
+			}
+			.subdiv2 h3
+			{
+			font-size: 4.5vw;
+			padding: 5vh 0 0 0;
+			}
+}
+@media screen and (max-width: 400px)
+{
+	#services
+	{
+	height: 300vh;
+	}
+		#services h1
+		{
+		width: 80%;
+		font-size: 8vw;
+		}
+	#divser1
+	{
+	margin: 10vh 0 0 0;
+	height: 65vh;
+	width: 100%;
+	/*border: solid black 2px;*/
+	}
+	#divser2
+	{
+	margin: 75vh 0 0 0;
+	height: 65vh;
+	width: 100%;
+	/*border: solid black 2px;*/
+	}
+	#divser3
+	{
+	margin: 140vh 0 0 0;
+	height: 65vh;
+	width: 100%;
+	/*border: solid black 2px;*/
+	}
+	#divser4
+	{
+	margin: 205vh 0 0 0;
+	height: 65vh;
+	width: 100%;
+	/*border: solid black 2px;*/
+	}
+		.subdiv
+		{
+		width: 90%;
+		height: 55vh;
+		}
+			.subdiv h2
+			{
+			font-size: 5.5vw;
+			padding: 2.5vh 0 2.5vh 0;
+			}
+			.subdiv2 h3
+			{
+			font-size: 5.5vw;
+			padding: 4vh 0 0 0;
+			}
+}
+@media screen and (max-width: 300px)
+{
+	#services
+	{
+	height: 260vh;
+	}
+		#services h1
+		{
+		width: 90%;
+		font-size: 9vw;
+		}
+	#divser1
+	{
+	margin: 10vh 0 0 0;
+	height: 55vh;
+	width: 100%;
+	/*border: solid black 2px;*/
+	}
+	#divser2
+	{
+	margin: 65vh 0 0 0;
+	height: 55vh;
+	width: 100%;
+	/*border: solid black 2px;*/
+	}
+	#divser3
+	{
+	margin: 120vh 0 0 0;
+	height: 55vh;
+	width: 100%;
+	/*border: solid black 2px;*/
+	}
+	#divser4
+	{
+	margin: 175vh 0 0 0;
+	height: 55vh;
+	width: 100%;
+	/*border: solid black 2px;*/
+	}
+		.subdiv
+		{
+		width: 90%;
+		height: 50vh;
+		}
+			.subdiv h2
+			{
+			font-size: 6.5vw;
+			padding: 2.5vh 0 2.5vh 0;
+			}
+			.subdiv2 h3
+			{
+			font-size: 6.5vw;
+			padding: 4vh 0 0 0;
+			}
+}

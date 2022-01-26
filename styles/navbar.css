@@ -1,0 +1,176 @@
+.nav
+{
+position: fixed;
+width: 60vw;
+height: 15vh;
+margin: 0 20vw 0 20vw;
+overflow: hidden;
+/*border: solid black 2px;*/
+box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+border-radius: 0 0 10px 10px;
+transition: 0.3s;
+background-color: rgba(0, 0, 0, 0.7);
+padding: 0 0 0 4%;
+z-index: 99;
+}
+
+	.nav a
+	{
+	/*float: left;*/
+	/*display: block;*/
+	color: rgb(255, 255, 255);
+	font-size: 1.8vw;
+	padding: 0 1vw 0 1vw;
+	text-decoration: none;
+	vertical-align: middle;
+	}
+	.nav img
+	{
+	margin: 0.8% 0 0 0;
+	height: 80%;
+	}
+	.nav a:hover
+	{
+	border-bottom: solid #D71C39 3px;
+	padding: 0 1vw 2vh 1vw;
+	}
+	.nav a.active
+	{
+	border-bottom: solid #D71C39 3px;
+	padding: 0 1vw 2vh 1vw;
+	}
+	.nav .icon
+	{
+	display: none;
+	}
+	.nav i
+	{
+    transform: translateX(-25%);
+    animation: move 1s linear infinite;
+	}
+    @keyframes move
+    {
+        0%,100%
+        {
+        transform: translateY(-0.1em);
+        } 50% {
+        transform: translateY(0.1em);
+        }
+    }
+
+@media screen and (max-width: 800px)
+{
+	.nav
+	{
+	width: 100vw;
+	height: auto;
+	margin: 0;
+	border-radius: inherit;
+	overflow: auto;
+	}
+	.nav img
+	{
+	display: none;
+	}
+	.nav a
+	{
+	font-size: 3.5vw;
+	padding: 2vh 0 2vh 0;
+	}
+	.nav a:not(:first-child)
+	{
+	display: none;
+	}
+	.nav a.icon
+	{
+	float: right;
+	margin: 1vh 2vw 0 0;
+	display: block;
+	font-size: 8vw;
+	}
+	.nav.responsive .icon
+	{
+	position: absolute;
+	right: 1vw;
+	top: 1vh;
+	}
+	.nav.responsive a
+	{
+	float: none;
+	display: block;
+	text-align: center;
+	}
+	.nav a.active
+	{
+	border-bottom: none;
+	}
+	.nav a:hover
+	{
+	border-bottom: none;
+	}
+}
+
+@media screen and (max-width: 700px)
+{
+	.nav a
+	{
+	font-size: 4vw;
+	padding: 2vh 0 2vh 0;
+	}
+	.nav a.icon
+	{
+	font-size: 8vw;
+	}
+}
+
+@media screen and (max-width: 600px)
+{
+	.nav a
+	{
+	font-size: 4.5vw;
+	padding: 2vh 0 2vh 0;
+	}
+	.nav a.icon
+	{
+	font-size: 9vw;
+	}
+}
+
+@media screen and (max-width: 500px)
+{
+	.nav a
+	{
+	font-size: 5vw;
+	padding: 2vh 0 2vh 0;
+	}
+	.nav a.icon
+	{
+	font-size: 9vw;
+	}
+}
+
+@media screen and (max-width: 400px)
+{
+	.nav a
+	{
+	font-size: 5.5vw;
+	padding: 2vh 0 2vh 0;
+	}
+	.nav a.icon
+	{
+	font-size: 10vw;
+	}
+}
+
+@media screen and (max-width: 300px)
+{
+	.nav a
+	{
+	font-size: 6vw;
+	padding: 2vh 0 2vh 0;
+	}
+	.nav a.icon
+	{
+	font-size: 10vw;
+	}
+}
